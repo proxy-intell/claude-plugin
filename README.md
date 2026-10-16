@@ -1,6 +1,6 @@
 [![Proxy: ad library access for Claude](assets/banner.png)](https://useproxy.dev/)
 
-# Proxy for Claude
+# Proxy Ad Library for Claude
 
 Search the public ad libraries of Meta, Google, LinkedIn and TikTok from Claude, then turn what competitors run into creative strategy and ad scripts. Free to start, no API keys.
 
