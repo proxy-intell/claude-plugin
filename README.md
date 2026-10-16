@@ -1,4 +1,10 @@
-# Proxy
+[![Proxy: ad library access for Claude](assets/banner.png)](https://useproxy.dev/)
+
+# Proxy for Claude
+
+Search the public ad libraries of Meta, Google, LinkedIn and TikTok from Claude, then turn what competitors run into creative strategy and ad scripts. Free to start, no API keys.
+
+[Website](https://useproxy.dev/) · [Privacy](https://useproxy.dev/privacy) · [Terms](https://useproxy.dev/terms) · [Support](https://useproxy.dev/support)
 
 Real-time access to the public ad libraries of Meta, Google, LinkedIn and TikTok from a conversation with Claude. No API keys: sign in once with OAuth.
 
@@ -7,6 +13,20 @@ Real-time access to the public ad libraries of Meta, Google, LinkedIn and TikTok
 Ask Claude about a brand, for example "Show Nike's active Meta ads", "Who are Canva's main competitors?" or "Transcribe Anysphere's first TikTok ad". Claude looks up the brand, pulls its currently running ads, analyzes images and video creatives, finds competitors and writes competitive briefs.
 
 Proxy is read-only. It cannot create or publish ads, and private performance data such as conversion rate or ROAS is not available.
+
+## Install
+
+- **Claude (claude.ai, desktop, mobile):** add Proxy from the Claude directory and sign in once.
+- **Claude Code:** `/plugin marketplace add proxy-intell/claude-plugin`, then `/plugin install proxy-ad-library@proxy`.
+- **Other MCP clients (ChatGPT, Cursor):** connect `https://mcp.useproxy.dev/mcp`, or see [useproxy.dev/welcome](https://useproxy.dev/welcome).
+
+## Example prompts
+
+- "How many ads is Anthropic running on Meta, and what's the split between video and image?"
+- "Compare the advertising strategies of Nike, Adidas and Under Armour."
+- "Who are Canva's main competitors? Show me what they run on Google."
+- "Analyze Nike's top video ads and write me three scripts in the same structure for my product."
+- "Run a creative strategy for my meal-planning app based on what its competitors are running."
 
 ## Skills
 

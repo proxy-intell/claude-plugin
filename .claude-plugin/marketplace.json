@@ -1,0 +1,11 @@
+{
+  "name": "proxy",
+  "owner": { "name": "Proxy", "email": "support@useproxy.dev" },
+  "plugins": [
+    {
+      "name": "proxy-ad-library",
+      "source": "./",
+      "description": "Real-time Meta, Google, LinkedIn and TikTok ad-library access for Claude. No API keys."
+    }
+  ]
+}
