@@ -18,5 +18,10 @@
     "google",
     "linkedin",
     "tiktok"
-  ]
+  ],
+  "repository": "https://github.com/proxy-intell/claude-plugin",
+  "documentationUrl": "https://useproxy.dev/docs",
+  "privacyPolicyUrl": "https://useproxy.dev/privacy",
+  "termsOfServiceUrl": "https://useproxy.dev/terms",
+  "supportUrl": "https://useproxy.dev/support"
 }
