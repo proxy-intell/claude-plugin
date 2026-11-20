@@ -5,6 +5,8 @@ description: Research a competitor's advertising across Meta, Google, LinkedIn a
 
 Credits are a daily budget. Fetch a modest limit per brand first, widen only if needed. Never state plan limits; report only what `get_credit_balance` or a tool result says.
 
+Proxy has a playbook for this job: call `get_playbook` with job `competitor_teardown` first and follow it. To track competitors over time, use the `competitor_watch` playbook: re-running `get_meta_ads` or `get_google_ads` a day or more later reports what changed since the last fetch.
+
 1. Resolve the brand: `get_meta_platform_id` and `get_google_platform_id`. Pick the top candidate by verified status and followers; if unsure, say which candidates you considered.
 2. Pull ads: `get_meta_ads` and `get_google_ads`. Add `search_linkedin_ads` for B2B brands. For TikTok use `search_tiktok_ads` with the exact registered advertiser name (case-sensitive).
 3. Summarize what is observed: ad count, formats, offers, hooks, calls to action, landing pages, how long ads have run. Longer-running ads likely signal winners; say so as an inference.
