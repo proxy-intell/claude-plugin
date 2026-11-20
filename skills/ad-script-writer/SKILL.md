@@ -5,6 +5,8 @@ description: Write short-form video ad scripts (TikTok, Reels, Shorts, Meta vide
 
 If the user points at a competitor's video ad, run `analyze_ad_video` first (use `tiktok_id` for TikTok ads) to get the transcript and scene structure. Credits are a daily budget; analyze one or two ads, not a dozen.
 
+Proxy has a playbook for this job: call `get_playbook` with job `script_writing` first and follow it.
+
 1. Get the product, audience, offer and length (default 30s). Ask once if missing.
 2. Break down the reference ad if given: hook, problem, proof, offer, CTA, and timing of each beat.
 3. Write 3 script variants. Do not copy the competitor's wording; reuse the structure, change the angle.

@@ -5,6 +5,8 @@ description: Turn competitor ads into a creative strategy. Use when the user wan
 
 Credits are a daily budget. Analyze only the ads that matter; image and video analysis cost 1 credit each. Never state plan limits.
 
+Proxy has a playbook for this job: call `get_playbook` with job `competitor_teardown` first and follow it.
+
 1. Get the user's product, audience and goal. If missing, ask once, briefly.
 2. Pull 2-4 competitors' ads (see the competitor-research skill). Prefer the longest-running ads.
 3. Analyze the best 3-6 creatives: `analyze_ad_image` for images, `analyze_ad_video` for video (it also transcribes the voiceover).
