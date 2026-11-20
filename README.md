@@ -18,7 +18,7 @@ Proxy is read-only. It cannot create or publish ads, and private performance dat
 
 - **Claude (claude.ai, desktop, mobile):** add Proxy from the Claude directory and sign in once.
 - **Claude Code:** `/plugin marketplace add proxy-intell/claude-plugin`, then `/plugin install proxy-ad-library@proxy`.
-- **Other MCP clients (ChatGPT, Cursor):** connect `https://mcp.useproxy.dev/mcp`, or see [useproxy.dev/welcome](https://useproxy.dev/welcome).
+- **Other MCP clients (ChatGPT, Cursor):** connect `https://mcp.useproxy.dev/mcp?ref=claude-plugin`, or see [useproxy.dev/welcome](https://useproxy.dev/welcome).
 
 ## Example prompts
 
@@ -32,8 +32,20 @@ Proxy is read-only. It cannot create or publish ads, and private performance dat
 
 - `get-started`: runs a first lookup right after install
 - `competitor-research`: what a brand runs across platforms, and who else competes
-- `creative-strategy`: turns competitor ads into angles, hooks and a test plan
-- `ad-script-writer`: writes short-form video ad scripts, optionally modeled on a competitor's video
+
+One skill per Proxy playbook. Each loads the current method from the server with `get_playbook`, so it stays up to date ([what each delivers](https://useproxy.dev/playbooks)):
+
+- `competitor-ad-teardown`: angles, offers and formats competitors keep funding, plus the gaps
+- `ad-script-writing`: original scripts and hooks built on long-running video ad structures
+- `winning-product-research`: products other stores keep scaling with ads
+- `product-validation`: go or no-go on one product or market, country by country
+- `digital-offer-research`: courses, ebooks and low-ticket funnels that keep paying for ads
+- `who-is-advertising`: which prospects run ads, with a pitch opener for each
+- `brand-ad-audit`: scorecard of one brand's ads against category leaders
+- `ad-swipe-file`: ad references grouped by visual pattern, with design briefs
+- `landing-page-teardown`: the pages long-running ads point to
+- `holiday-ad-campaigns`: Black Friday and seasonal campaigns, week by week
+- `competitor-ad-watch`: what competitors launched, dropped and kept since last time
 
 ## Data
 
