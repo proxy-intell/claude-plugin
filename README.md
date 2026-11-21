@@ -50,3 +50,7 @@ One skill per Proxy playbook. Each loads the current method from the server with
 ## Data
 
 Brand names, search terms and ad IDs you ask about are sent to the Proxy server at mcp.useproxy.dev, which queries the public ad libraries through a data provider (ScrapeCreators) and returns the results. When you ask for image or video analysis, the ad's public media is sent to Google's Gemini model to produce a description and transcript. Your account email is used for sign-in and usage limits. Privacy policy: https://useproxy.dev/privacy. Support: https://useproxy.dev/support.
+
+## For AI agents
+
+Hosted MCP server: `https://mcp.useproxy.dev/mcp?ref=claude-plugin` (streamable HTTP, OAuth on first connect, no API key). Manifest: [`server.json`](server.json). Setup for every client: https://useproxy.dev/llms.txt
