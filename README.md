@@ -43,6 +43,7 @@ One skill per Proxy playbook. Each loads the current method from the server with
 - `who-is-advertising`: which prospects run ads, with a pitch opener for each
 - `brand-ad-audit`: scorecard of one brand's ads against category leaders
 - `ad-swipe-file`: ad references grouped by visual pattern, with design briefs
+- `creative-brief-contact-sheet`: a creative brief with its reference ads on one contact sheet
 - `landing-page-teardown`: the pages long-running ads point to
 - `holiday-ad-campaigns`: Black Friday and seasonal campaigns, week by week
 - `competitor-ad-watch`: what competitors launched, dropped and kept since last time
